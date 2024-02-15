@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1704557787 source:c:\users\runyu\desktop\workspacetemp\minini\minini.c
+	"minIni.h"
+	<assert.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+
+1708001797 c:\users\runyu\desktop\workspacetemp\minini\minini.h
+	"minGlue-Linux.h"
+	<tchar.h>
+	"wxMinIni.h"
+	<string>
+
+1704557787 c:\users\runyu\desktop\workspacetemp\minini\minglue-linux.h
+	<stdio.h>
+	<unistd.h>
+	<sys/file.h>
+
