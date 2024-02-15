@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1702914031 source:c:\users\runyu\desktop\workspacetemp\thpool\thpool.c
+	<AvailabilityMacros.h>
+	<unistd.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<errno.h>
+	<time.h>
+	<sys/prctl.h>
+	<pthread_np.h>
+	"thpool.h"
+
+1707998059 c:\users\runyu\desktop\workspacetemp\thpool\thpool.h
+

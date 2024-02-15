@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1621565174 source:c:\users\runyu\desktop\workspacetemp\cli_table\csv_parser.c
+	"csv_parser.h"
+
+1621565174 c:\users\runyu\desktop\workspacetemp\cli_table\csv_parser.h
+	<stdint.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1707999112 source:c:\users\runyu\desktop\workspacetemp\cli_table\cli_table.c
+	"cli_table.h"
+
+1621565174 c:\users\runyu\desktop\workspacetemp\cli_table\cli_table.h
+	<stdint.h>
+	<stdio.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	"csv_parser.h"
+
