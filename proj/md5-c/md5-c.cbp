@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="libHash" />
+		<Option title="md5-c" />
 		<Option pch_mode="2" />
 		<Option compiler="arm-elf-gcc" />
 		<Build>
 			<Target title="Release">
-				<Option output="bin/Release/libHash" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/md5-c" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="arm-elf-gcc" />
