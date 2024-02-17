@@ -18,10 +18,87 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="static">
+				<Option output="bin/static/c-periphery" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/static/" />
+				<Option type="2" />
+				<Option compiler="arm-elf-gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="gpio.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="gpio.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="gpio_cdev_v1.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="gpio_internal.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="i2c.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="i2c.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="led.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="led.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="mmio.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="mmio.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="pwm.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="pwm.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="serial.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="serial.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="spi.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="spi.h">
+			<Option target="static" />
+		</Unit>
+		<Unit filename="version.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="version.h">
+			<Option target="static" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
