@@ -1,0 +1,184 @@
+# depslib dependency file v1.0
+1708166124 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\gpio.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<poll.h>
+	<sys/stat.h>
+	<errno.h>
+	<sys/ioctl.h>
+	"gpio.h"
+	"gpio_internal.h"
+
+1708165412 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\gpio.h
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\gpio_internal.h
+	<stdarg.h>
+	"gpio.h"
+
+1708166060 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\gpio_cdev_v1.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<poll.h>
+	<sys/ioctl.h>
+	<errno.h>
+	"gpio.h"
+	"gpio_internal.h"
+	<linux/gpio.h>
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\gpio_sysfs.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<poll.h>
+	<sys/stat.h>
+	<errno.h>
+	"gpio.h"
+	"gpio_internal.h"
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\i2c.c
+	<stddef.h>
+	<stdint.h>
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	<stdlib.h>
+	<sys/ioctl.h>
+	<linux/i2c.h>
+	<linux/i2c-dev.h>
+	"i2c.h"
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\i2c.h
+	<stddef.h>
+	<stdint.h>
+	<limits.h>
+	<linux/i2c.h>
+	<linux/i2c-dev.h>
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\led.c
+	<stddef.h>
+	<stdbool.h>
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	"led.h"
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\led.h
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\mmio.c
+	<stddef.h>
+	<stdint.h>
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/mman.h>
+	<errno.h>
+	<fcntl.h>
+	<unistd.h>
+	"mmio.h"
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\mmio.h
+	<stddef.h>
+	<stdint.h>
+	<sys/types.h>
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\pwm.c
+	<stddef.h>
+	<stdbool.h>
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<inttypes.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<errno.h>
+	"pwm.h"
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\pwm.h
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\serial.c
+	<stddef.h>
+	<stdint.h>
+	<stdbool.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	<poll.h>
+	<sys/select.h>
+	<sys/ioctl.h>
+	<termios.h>
+	"serial.h"
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\serial.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\spi.c
+	<stddef.h>
+	<stdint.h>
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<fcntl.h>
+	<unistd.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/ioctl.h>
+	<linux/spi/spidev.h>
+	"spi.h"
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\spi.h
+	<stddef.h>
+	<stdint.h>
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\version.c
+	"version.h"
+
+1688613620 c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\version.h
+
+1688613620 source:c:\users\runyu\desktop\workspacetemp\c-library-backup\proj\c-periphery\gpio_cdev_v2.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<poll.h>
+	<sys/ioctl.h>
+	<errno.h>
+	"gpio.h"
+	"gpio_internal.h"
+	<linux/gpio.h>
+

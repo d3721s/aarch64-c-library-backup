@@ -6,15 +6,6 @@
 		<Option pch_mode="2" />
 		<Option compiler="arm-elf-gcc" />
 		<Build>
-			<Target title="Debug">
-				<Option output="bin/Debug/cli_table" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
-				<Option type="1" />
-				<Option compiler="arm-elf-gcc" />
-				<Compiler>
-					<Add option="-g" />
-				</Compiler>
-			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/cli_table" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
@@ -27,10 +18,32 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="static">
+				<Option output="bin/static/cli_table" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/static/" />
+				<Option type="2" />
+				<Option compiler="arm-elf-gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="cli_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cli_table.h" />
+		<Unit filename="csv_parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="csv_parser.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

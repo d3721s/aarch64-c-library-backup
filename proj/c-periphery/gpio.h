@@ -15,6 +15,7 @@ extern "C" {
 #include <stdbool.h>
 #include <stdint.h>
 
+#define PERIPHERY_GPIO_CDEV_SUPPORT 1
 enum gpio_error_code {
     GPIO_ERROR_ARG                  = -1,   /* Invalid arguments */
     GPIO_ERROR_OPEN                 = -2,   /* Opening GPIO */

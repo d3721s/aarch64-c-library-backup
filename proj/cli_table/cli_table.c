@@ -252,7 +252,7 @@ uint32_t cli_static_table_column_get(StaticTableObject* object){
 }
 
 int cli_static_table_cell_delete(StaticTableObject* object, uint32_t row, uint32_t column){
-//    CellObject* cell = NULL;
+    CellObject* cell = NULL;
     int res = 0;
     if(object == NULL) {
         res = -1;
