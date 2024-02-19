@@ -27,10 +27,32 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="static">
+				<Option output="bin/static/tlog" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/static/" />
+				<Option type="2" />
+				<Option compiler="arm-elf-gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="tlog.c">
+			<Option compilerVar="CC" />
+			<Option target="static" />
+		</Unit>
+		<Unit filename="tlog.h">
+			<Option target="static" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
