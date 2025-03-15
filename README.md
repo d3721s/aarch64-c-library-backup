@@ -17,3 +17,6 @@ https://github.com/compuphase/minIni
 https://github.com/pymumu/tinylog
 ### md5-c 
 https://github.com/Zunawe/md5-c
+### boost
+https://www.boost.org/
+https://github.com/boostorg/boost
